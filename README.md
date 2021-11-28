@@ -6,7 +6,7 @@ https://61a3e98960728c67faa57e97--rouleth.netlify.app/
 
 ## Project Description
 
-Decentralized Application that alows the user to deposit/withdraw funds (ETH) to/from the casino and place bets, whether the number chosen by the roulette is red or black.
+Decentralized Application that allows the user to deposit/withdraw funds (ETH) to/from the casino and place bets, whether the number chosen by the roulette is red or black.
 User must deposit a funds first in order to be able to place bets. 
 If he/she wins he/she gets betAmount*2 (the coefficient on betting on black or red is 2), and the the same amount is withdrawn from the Casino reserve. 
 In the opposite case the the funds are deposited to the Casino reserve and withdrawn from the user.
@@ -36,7 +36,7 @@ This project is scafolded using "truffle unbox react".
 ## Running the project locally
 
 - Install MetaMask & change the netwrok to Kovan Test Network.
-- Go to https://faucets.chain.link/kovan?_ga=2.192180079.492937002.1638112081-623395727.1637539020 and send yoursels some LINK (and ETH).
+- Go to https://faucets.chain.link/kovan?_ga=2.192180079.492937002.1638112081-623395727.1637539020 and send yourself some LINK (and ETH).
 - Clone this repo.
 - Navigate to the project directory.
 - Create .secret file inside the main project directory and copy the mnemonic (seed phrase) from MetaMask to this file.
