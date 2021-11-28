@@ -1,0 +1,341 @@
+body {
+  background-color: #17c3b2;
+}
+
+.Header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  background-color: black;
+}
+
+.Header-container {
+  min-height: 70px;
+  padding-bottom: 0.5rem !important;
+  padding-top: 0.5rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  display: flex !important;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.Header-items-left {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
+.Header-items-right {
+  display: flex !important;
+  align-items: center !important; 
+  justify-content: flex-start !important;
+}
+
+.Header-name {
+  padding-left: 2rem;
+}
+
+.Header-login {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;  
+}
+
+.Button-login {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.Login {
+  border: 1px solid;
+  white-space: nowrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: auto;
+  margin: 0px;
+  height: 40px;
+  padding: 5px 26px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0.75rem;
+  border-color:  #fec004;
+  text-align: center;
+  background-color: #fec004 !important;
+  display: flex !important;
+  justify-content: center !important;
+  color: white !important;
+  align-items: center;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.Login:hover {
+  background-color: rgba(254, 192, 4, 0.9) !important;
+}
+
+.Connect {
+  display: inline !important;
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-size: 1.125rem;
+}
+
+.Container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+  max-width: 1536px !important;
+  margin-top: 8rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.tw-flex {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+}
+
+.tw-split-width {
+  margin-bottom: 0 !important;
+  width: 30% !important;
+}
+
+.tw-rounded {
+  display: flex !important;
+  padding: 1.25rem !important;
+  background-color: black;
+  border-radius: 1.25rem !important;
+  justify-content: center;
+  height: 200px;
+}
+
+.tw-owner {
+  font-size: 1rem !important;
+}
+
+.tw-text-center {
+  text-align: center !important;
+  padding-left: 3.5rem !important;
+  padding-right: 3.5rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.tw-header {
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.tw-content {
+  font-size: 1.5rem;
+  color: rgb(254, 213, 89);
+  line-height: 1.8rem;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.tw-buttons {
+  display: flex !important;
+}
+
+
+.tw-btn-trade {
+  font-weight: 900;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  border-width: 0;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  width: 150px;
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.tw-btn-deposit {
+  background-color: #17c3b2;
+  cursor: pointer;
+}
+
+.tw-btn-deposit:disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+
+.tw-btn-deposit:hover {
+  background-color: rgba(23, 195, 178, 0.9);
+}
+
+.tw-btn-withdraw {
+  background-color: #d74e09;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tw-btn-withdraw:hover {
+  background-color: rgba(215, 78, 9, 0.9);
+}
+
+.tw-btn-withdraw:disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+
+.tw-btn-placebet {
+  width: 330px;
+  background-color: #fec004;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.tw-btn-placebet:hover {
+  background-color: rgba(254, 192, 4, 0.9);
+}
+
+.tw-btn-placebet:disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+
+
+.Bet-header {
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+.tw-color {
+  margin-bottom: 0 !important;
+  width: 150px;
+  height: 180px;
+  border-radius: 1.25rem !important;
+  cursor: pointer;
+}
+
+.choosed {
+  border: 5px solid white;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: #d74e09;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.tw-input-wrapper {
+  width: 330px;
+  background-color: white;
+  border-radius: 0.5rem !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+  height: 2.5rem;
+  max-width: 100% !important;
+}
+
+.tw-input {
+  color: black;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  text-align: left !important;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+  border: 0 solid;
+  padding-top: 4px;
+}
+
+.tw-input:focus {
+  outline: none;
+}
+
+.tw-input-append {
+  margin-right: 1.25rem !important;
+  margin-left: 1.25rem !important;
+  color: black;
+}
+
+.tw-input-flex {
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  display: inline-flex !important;
+}
+
+.eth-symbol {
+  font-weight: 500;
+}
+
+.App {
+  min-height: 100vh;
+  overflow: auto;
+  padding-top: 4.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}

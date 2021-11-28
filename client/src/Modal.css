@@ -1,0 +1,30 @@
+.modal-content {
+  width: 800px;
+  height: 600px;
+  background-color: rgb(37, 37, 37);
+  transition: all 0.3s ease-in-out;
+  transform: translate(345px, -648px);
+  border-radius: 1rem;
+  border-width: 1px;
+}
+
+
+.modal-body {
+  color: #17c3b2;
+  font-size: 2rem;
+  padding: 30%;
+}
+
+.modal-body-result {
+  color: #17c3b2;
+  font-size: 1.6rem;
+  padding: 30%;
+}
+
+  
+ 
+  
+
+  
+ 
+  
