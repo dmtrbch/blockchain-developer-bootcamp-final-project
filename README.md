@@ -6,13 +6,13 @@ https://61a3e98960728c67faa57e97--rouleth.netlify.app/
 
 ## Project Description
 
-Decentralized Application that allows the user to deposit/withdraw funds, to/from the casino, and place bets, depending if the number chosen by the roulette is red or black.
+Decentralized Application that allows the user to deposit/withdraw funds, to/from the casino, and place bets, depending on the number chosen by the roulette (whether it's red or black).
 User must deposit a funds first in order to be able to place bets. 
 If the user wins he gets betAmount*2 (the coefficient on betting on black or red is 2), and the same amount is withdrawn from the Casino reserve. 
 In the opposite case the the funds are deposited to the Casino reserve and withdrawn from the user.
 
 For generating a random number we are using Chainlink VRF as a source of randomness.
-Please be aware that it takes time for the bet to be processed, since the generation of the number is a separate transaction. 
+Please be aware that it takes time for the bet to be processed, since the generation of the number is a separate transaction handeled by ChainLink Oracle. 
 Sometimes it might take up to 2 minutes.
 
 This is a European style roulette which means there are 37 numbers, from 0 to 36, with only one 0.
@@ -37,13 +37,13 @@ This project is scafolded using "truffle unbox react".
 
 - Install MetaMask.
 - Change the network to Kovan Test Network (you might need to turn Show/Hide test networks in MetaMask to be able to change to Kovan).
-- Import LINK token on Kovan (Token Contract Address: )
+- Import LINK token on Kovan (Token Contract Address: 0xa36085F69e2889c224210F603D836748e7dC0088)
 - Go to https://faucets.chain.link/kovan?_ga=2.192180079.492937002.1638112081-623395727.1637539020 and send yourself some LINK (and ETH).
 - Clone this repo.
 - Navigate to the project directory.
 - Create .secret file inside the main project directory and copy the mnemonic (seed phrase) from MetaMask to this file.
 - Run "npm install".
-- Run "truffle develop"
+- Run "truffle develop".
 - Inside the truffle(develop) console, run "compile".
 - Note that this application can not be tested on a local development network or Ganache, this is because of the use of Chainlink VRF Contract. More info here: https://docs.chain.link/docs/faq/#can-i-use-a-local-chainlink-node-with-ganache.
 - Create new ethereum project on infura.io. (For migration and deploying new version of the contract on Kovan testnet, not required)
@@ -63,7 +63,7 @@ This project is scafolded using "truffle unbox react".
 ## Additional Information for running the project locally
 
 - When running the truffle (truffle develop, truffle compile, truffle test, truffle console) commands, run them from the Visual Studio Code terminal.
-- When running the migration script (truffle migrate --reset --network kovan), open up new terminal (PowerShell), navigate to the project directory and run the command from there. This is because there was an issue running this command from VSC.
+- When running the migration script (truffle migrate --reset --network kovan), open up new terminal (PowerShell), navigate to the project directory and run the command from there. This is because there might be an issue running this command from VSC.
 - When running the frontend (npm run start), open up new terminal (PowerShell), navigate to the project client directory and run the command from there.
 
 ## Running the unit tests for the project
