@@ -15,7 +15,7 @@ If the user wins he gets betAmount*2 (the coefficient on betting on black or red
 In the opposite case the the funds are deposited to the Casino reserve and withdrawn from the user.
 
 For generating a random number we are using Chainlink VRF as a source of randomness. We pay a service fee to the Chainlink Oracle everytime number is generated.
-Please be aware that it takes time for the bet to be processed, since the generation of the number is a separate transaction handeled by ChainLink. 
+Please be aware that it takes time for the bet to be processed, since the generation of the number is a separate transaction handled by ChainLink. 
 Sometimes it might take up to 2-3 minutes.
 
 This is a European style roulette which means there are 37 numbers, from 0 to 36, with only one 0.
