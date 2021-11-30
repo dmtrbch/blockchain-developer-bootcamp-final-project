@@ -85,4 +85,11 @@ https://www.loom.com/share/f9c2bd8598ea4517bba2e4c1515db34f
 
 Video is shortened. Bet might be in progress for 2+ minutes due to the generation of random number by Chainlink VRF
 
+## TODO & future improvements
+
+- Add functionality to bet on specific number
+- Add functionality to bet on odd or even number
+- Add functionality to place multiple bets in one game round
+- Add functionality for the gambler to top up casino reserve (add liquidity to the casino) and get rewards
+- Bets to be placed with native casino token (ERC-20) instead of ETH
 
