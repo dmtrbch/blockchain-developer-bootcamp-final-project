@@ -38,7 +38,7 @@ This project is scafolded using "truffle unbox react".
 
 ## Running the project locally
 
-- NOTE: Point 10 through 15 are not required, but we need them in case we want to redeploy the contract and be able to deposit funds to the casinoReserve (become an owner of the casino).
+- NOTE: Points 2 through 4 and 10 through 15 are not required, but we need them in case we want to redeploy the contract and be able to deposit funds to the casinoReserve (become an owner of the casino).
 
 1. Install MetaMask.
 2. Change the network to Kovan Test Network (you might need to turn on Show/Hide test networks in MetaMask to be able to change to Kovan).
