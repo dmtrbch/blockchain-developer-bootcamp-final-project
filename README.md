@@ -11,7 +11,7 @@ Decentralized Application that allows the user to deposit/withdraw funds, to/fro
 NOTE: Only the Owner of the contract can add funds to the Casino Reserve
 
 User must deposit funds first in order to be able to place bets. 
-If the user wins he gets betAmount*2 (the coefficient on betting on black or red is 2), and the same amount is withdrawn from the Casino reserve. 
+If the user wins he gets betAmount*2 (the coefficient for betting on black or red is 2), and the same amount is withdrawn from the Casino reserve. 
 In the opposite case the the funds are deposited to the Casino reserve and withdrawn from the user.
 
 For generating a random number we are using Chainlink VRF as a source of randomness. We pay a service fee to the Chainlink Oracle everytime number is generated.
